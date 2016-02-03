@@ -25,19 +25,22 @@ html body {
   text-align: center;
 }
 
-.icons i {
-  cursor: pointer;
-}
-
 .bar {
   margin: 0;
   text-align: center;
-  cursor: pointer;
 }
 
 .bar i {
   font-size: 4em;
   color: #F26522;
+}
+
+.zoom {
+  transition: all .20s ease-in-out;
+}
+
+.zoom:hover {
+  transform: scale(1.05);
 }
 
 .grid {

@@ -22,18 +22,18 @@ html{
 	font-size: 10em;
 	color: $orange;
 	text-align: center;
-	i{
-		cursor: pointer;
-	}
 }
 
 .bar{
 	margin: 0;
 	text-align: center;
-	cursor: pointer;
-	
+
 	i{
 		font-size: 4em;
 		color: $orange;
 	}
+}
+
+.zoom{
+	@include zoom(1.05)
 }

@@ -1,0 +1,6 @@
+@mixin zoom ($orange){
+	transition: all .20s ease-in-out;
+	&:hover{
+		transform: scale(1.05);
+	}
+}
