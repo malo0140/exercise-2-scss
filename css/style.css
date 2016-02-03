@@ -1,4 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 html {
   font-family: "Lato", sans-serif;
+  background-color: #A4EAD4;
+}
+
+html body {
+  margin: 0;
+}
+
+.header {
+  background-color: #F26522;
+  width: 100%;
 }
