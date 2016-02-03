@@ -11,4 +11,29 @@ html{
 	background-color: $orange;
 	width: 100%;
 
+	h1{
+		color: $turquoise;
+		text-align: left;
+		margin-left: 1em;
+	}
+}
+
+.icons{
+	font-size: 10em;
+	color: $orange;
+	text-align: center;
+	i{
+		cursor: pointer;
+	}
+}
+
+.bar{
+	margin: 0;
+	text-align: center;
+	cursor: pointer;
+	
+	i{
+		font-size: 4em;
+		color: $orange;
+	}
 }
