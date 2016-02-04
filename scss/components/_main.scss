@@ -37,3 +37,15 @@ html{
 .zoom{
 	@include zoom(1.05)
 }
+
+.btn{
+	display: inline-block;
+	text-decoration: none;
+	text-shadow: 1.5px 1.5px 1.5px #888;
+}
+
+p{
+	padding-left: 20px;
+	margin-top: 0;
+	cursor: pointer;
+}
